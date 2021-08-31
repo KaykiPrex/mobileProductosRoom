@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu   xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/section1"
+        android:title="@string/item1"
+        android:icon="@drawable/ic_person_outline_black_24dp" />
+    <item android:id="@+id/section2"
+        android:title="@string/item2"
+        android:icon="@drawable/ic_person_outline_black_24dp" />
+</menu>

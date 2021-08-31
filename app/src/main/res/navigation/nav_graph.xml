@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/section1">
+
+    <fragment
+        android:id="@+id/login"
+        android:name="com.example.covidapp.view.Login"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/mainMenu"
+        android:name="com.example.covidapp.view.MainMenu"
+        android:label="fragment_main_menu"
+        tools:layout="@layout/fragment_main_menu" />
+    <fragment
+        android:id="@+id/section1"
+        android:name="com.example.covidapp.view.Section1"
+        android:label="fragment_section1"
+        tools:layout="@layout/fragment_section1" />
+    <fragment
+        android:id="@+id/section2"
+        android:name="com.example.covidapp.view.Section2"
+        android:label="fragment_section2"
+        tools:layout="@layout/fragment_section2" />
+</navigation>
